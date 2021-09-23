@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="https://smileoncelove.github.io//media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/live2d.css">
     <link rel="stylesheet" href="https://smileoncelove.github.io//styles/main.css">
-    <link rel="stylesheet" href="https://smileoncelove.github.io//media/css/font-awesome.css">
     <meta name="description" content="smieloncelove's blog" />
+    <link rel="stylesheet" href="https://smileoncelove.github.io//media/css/font-awesome.css">
     <title>Gridea</title>
 </head>
-
-
 <body>
     <div id="content">
         <div class="nav-large">
             <div class="row">
+                <!--------------- pc端菜单栏👇 ---------------->
                 <div class="side"><head>
     <link rel="stylesheet" href="https://smileoncelove.github.io//media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://smileoncelove.github.io//styles/main.css">
@@ -582,8 +581,8 @@ menulist.eq(i).show();
 
 
 </div>
-                <!-- ----------------左侧菜单栏html 👇-------------------------------------->
-                
+                <!--------------- pc端菜单栏👆 ---------------->
+                <!----------- 移动端导航栏👇 ----------------->
                 <div class="mobilebar"><head>
   <!-- 引入Bootstrap核心样式文件 -->
   <link rel="stylesheet" href="https://smileoncelove.github.io//media/css/bootstrap.min.css">
@@ -714,127 +713,96 @@ menulist.eq(i).show();
       }
     }
   </script> 
+                <!----------- 移动端导航栏👆 ----------------->
                 </div>
-                <div id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 topindex">
-                    <div class="mobilebar">
-                        <img src="" alt="" class="plbg">
-<script>
-    var bgchoice = "";
-    if(bgchoice=='default')
-        var plbgurl = ""
-    else  
-        var plbgurl = ""
-    $(".plbg").attr("src",plbgurl);
-    $(".plbg").fadeIn(200);
-</script>
-                    </div>
-                    <body">
-    <div class="archives-bg"></div>
-    <div class="archives-content">
-        
-        
-    </div>
-</body">
-                    <div>
-                        <div class="pcpagi">
-    <div class="pagi">
-        <ul>
-            
-            <li><a style="width:100px">&nbsp;</a></li>
-            
-                    <li><a id="page1">1</a></li>
-                    <li><a id="page2" class="active">2</a></li>
-                    <li><a id="page3">3</a></li>
-                    
-            <li><a style="width:100px">&nbsp;</a></li>
-            
-                </ul>
-    </div>
-</div>
-
-<div id="pagination-prev" style="display:none"> 
-</div>
-<div id="pagination-next" style="display:none"> </div>
-
-<div class="pagination-container">
-      
-    
-</div>
-
-<script>
-    var prevstr = document.getElementById("pagination-prev").innerHTML;
-    var nextstr = document.getElementById("pagination-next").innerHTML;
-    var page1 = document.getElementById("page1");
-    var page2 = document.getElementById("page2");
-    var page3 = document.getElementById("page3");
-    page1.innerHTML = '-';
-    page2.innerHTML = '1';
-    page3.innerHTML = '-';
-    if (prevstr.length > 5) {
-        if (prevstr.indexOf("page/") != -1) {
-            var prevnum = parseInt(prevstr.split("page/")[1]);
-            page1.innerHTML = prevnum;
-            page2.innerHTML = prevnum + 1;
-        } else {
-            page1.innerHTML = 1;
-            page2.innerHTML = 2;
-        }
-    }
-    if (nextstr.indexOf("page/") != -1) {
-        var nextnum = parseInt(nextstr.split("page/")[1]);
-        page3.innerHTML = nextnum;
-        page2.innerHTML = nextnum - 1;
-    }
-</script>
-                        <div style="padding-bottom:10%"></div>
-                    </div>
-                    
-                </div>
+                <!-- ----------------左侧菜单栏html 👇-------------------------------------->
                 
-                <!------------------ 顶部菜单栏html👆--------->
-                <div class="col-xs-6 col-sm-3"></div>
-            </div>
-            
-        </div>
-        <div id="bg">
-        </div>
-        <!------- 背景图加载方式👇----- -->
-        <div id="bgchoice" style="display: none">
-            </div>
-            
-            <div id="bgurl" style="display:none"></div>
-               
-        <!------- 背景图加载方式👆----- -->
+                <div class="col-md-2 col-lg-3"></div>
+                <div id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 posttop">
+                    <body>
+    <div id="friendscontainermobile">
+        
     </div>
 
-        <div id="landlord">
-            <div class="message" style="opacity:0"></div>
-            <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+    <div id="pcintroimg">
+        <div class="sea">
+            <p class="title">友人帐</p>
+            <span class="wave"></span>
+            <span class="wave"></span>
+            <span class="wave"></span>
         </div>
-        <div id="domainname" style="display:none">https://smileoncelove.github.io/
-        </div>
-</body>
+    </div>
 
+    <div id="friendscontainer">
+        <div id="friendsrule">
+            
+        </div>
+        
+    </div>
+</body>
+                    <div class="tog">
+                        <div class="toggleContainer">
+                            <div class="toggle">
+                                <i class="fas fa-angle-double-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="comment" class="comment">
+                        <div class="commentcontainer">
+                            
+                        </div>
+                    </div>
+                    <div style="display: none;">
+                        
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-3">
+                </div>
+            <div id="bg">
+            </div>
+        </div>
+        
+        <!------------------ 顶部菜单栏html👆--------->
+        
+
+    </div>
+    
+    <div class="tog">
+        <div class="toggleContainer">
+            <div class="toggle">
+                <i class="fas fa-angle-double-up"></i>
+            </div>
+        </div>
+    </div>
+    <div id="bgchoice" style="display: none"></div>
+    
+    <div id="bgurl" style="display:none"></div>
+    
+    </div>
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+    </div>
+    <div id="domainname" style="display:none">https://smileoncelove.github.io/</div>
+</body>
 </html>
+
 <!-------------------- live2d功能👇 --------------------------->
 
 <!-------------------- live2d功能👆 --------------------------->
 
 <!------------ 加载全局背景图功能👇（开始时没有写好，这功能有点鸡肋/(ㄒoㄒ)/~~） -->
 <script>
-    var bgchoice = ""
-    var bg = $('#bg');
-    var bgurl = document.getElementById("bgurl").innerHTML;
-    if (bgchoice == 'default')
-    {
-        for (var i = 0; i < 3; i++)
-            bgurl = bgurl.replace("\\", "/");
-        bgurl = "https://smileoncelove.github.io//" + bgurl;
-    }
-    bg.css("background", "url('" + bgurl + "')");
+        var bgchoice=$('#bgchoice').html();
+        var bg = $('#bg');
+        var bgurl = document.getElementById("bgurl").innerHTML;
+        if(bgchoice=='default')
+            for (var i = 0; i < 3; i++)
+                bgurl = bgurl.replace("\\", "/");
+        bg.css("background", "url('" + bgurl + "')");
 
-    window.onload = function () {
-        aplayerbtnInit();
-    }
+        window.onload = function(){
+            aplayerbtnInit();
+        }
 </script>
 <!------------ 加载全局背景图功能👆（开始时没有写好，这功能有点鸡肋/(ㄒoㄒ)/~~） -->
