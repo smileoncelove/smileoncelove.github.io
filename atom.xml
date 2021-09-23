@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://smileoncelove.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-09-23T18:56:21.258Z</updated>
+    <updated>2021-09-23T19:00:11.595Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://smileoncelove.github.io/"/>
     <link rel="self" href="https://smileoncelove.github.io/atom.xml"/>
@@ -10,4 +10,13 @@
     <logo>https://smileoncelove.github.io/images/avatar.png</logo>
     <icon>https://smileoncelove.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[真的爱你]]></title>
+        <id>https://smileoncelove.github.io/post/zhen-de-ai-ni/</id>
+        <link href="https://smileoncelove.github.io/post/zhen-de-ai-ni/">
+        </link>
+        <updated>2021-09-23T18:56:29.000Z</updated>
+        <content type="html"><![CDATA[<p>想爱好你自己吧！</p>
+]]></content>
+    </entry>
 </feed>
